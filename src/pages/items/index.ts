@@ -1,1 +1,1 @@
-export { ItemsPage } from './ui/ItemsPage';
+export { default } from './ui/ItemsPage';
