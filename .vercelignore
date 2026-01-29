@@ -1,0 +1,6 @@
+# Не загружать сервер на Vercel (деплоим только Next.js)
+server/
+# Локальные env
+.env
+.env.local
+.env.*.local

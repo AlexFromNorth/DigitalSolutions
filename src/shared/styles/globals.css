@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: 262 83% 58%;
+  --panel-bg: 220 14% 96%;
+}
+
+body {
+  font-feature-settings: 'rlig' 1, 'calt' 1;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  width: 8px;
+}
+.overflow-auto::-webkit-scrollbar-track {
+  background: hsl(220 13% 94%);
+  border-radius: 4px;
+}
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: hsl(220 13% 78%);
+  border-radius: 4px;
+}
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: hsl(220 13% 65%);
+}
