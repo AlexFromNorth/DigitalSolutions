@@ -3,7 +3,7 @@
 import { LeftPanel } from '@/widgets/left-panel';
 import { RightPanel } from '@/widgets/right-panel';
 
-export default function ItemsPage() {
+export  default  function ItemsPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 p-6">
       <header className="mb-6 text-center">
